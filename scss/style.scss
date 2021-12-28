@@ -189,6 +189,11 @@ img {
     padding-bottom: 70px;
 }
 
+.section-padding-0-10 {
+    padding-top: 0px;
+    padding-bottom: 10px;
+}
+
 /* :: 3.4.0 Section Heading */
 
 .section-heading {
@@ -1529,7 +1534,7 @@ img {
             position: absolute;
             z-index: 10;
             top: -30px;
-            left: 30px;
+            right: 30px;
             padding: 17px 0;
             span {
                 display: block;
