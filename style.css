@@ -85,6 +85,9 @@ img {
 .mb-50 {
   margin-bottom: 50px !important; }
 
+.mb-60 {
+  margin-bottom: 60px !important; }
+
 .mb-70 {
   margin-bottom: 70px !important; }
 
@@ -1343,7 +1346,7 @@ img {
       background-color: #fff;
       position: absolute;
       z-index: 10;
-      top: -30px;
+      top: -50px;
       right: 30px;
       padding: 7px 0; }
       .single-blog-post .blog-post-thumb .post-date span {
