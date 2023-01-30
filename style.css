@@ -167,6 +167,8 @@ img {
     @media only screen and (max-width: 767px) {
       .section-heading h2 {
         letter-spacing: 5px; } }
+  .section-heading.white h1 {
+      color: #fff; }
   .section-heading.white h2 {
     color: #fff; }
   .section-heading.style-2 p {
@@ -194,6 +196,8 @@ img {
     @media only screen and (max-width: 767px) {
       .section-heading-mb-50 h2 {
         letter-spacing: 5px; } }
+  .section-heading-mb-50.white h1 {
+      color: #fff; }
   .section-heading-mb-50.white h2 {
     color: #fff; }
   .section-heading-mb-50.style-2 p {
@@ -222,6 +226,8 @@ img {
     @media only screen and (max-width: 767px) {
       .section-heading-mt-50 h2 {
         letter-spacing: 5px; } }
+  .section-heading-mt-50.white h1 {
+      color: #fff; }
   .section-heading-mt-50.white h2 {
     color: #fff; }
   .section-heading-mt-50.style-2 p {
