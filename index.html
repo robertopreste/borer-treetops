@@ -2,883 +2,442 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="description" content="">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
-    <!-- Title -->
-    <title>Borer Treetops</title>
+  <!-- Basic -->
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <!-- Favicon -->
-    <link rel="icon" href="img/favicons/favicon.ico">
-    <link rel="apple-touch-icon" sizes="180x180" href="img/favicons/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="img/favicons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="img/favicons/favicon-16x16.png">
-    <link rel="manifest" href="img/favicons/site.webmanifest">
-    <meta name="msapplication-TileColor" content="#da532c">
-    <meta name="theme-color" content="#000000">
+  <!-- Mobile Metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1">
 
-    <!-- Stylesheet -->
-    <link rel="stylesheet" href="style.css">
+  <!-- Site Metas -->
+  <title>Borer Treetops</title>
+  <meta name="description" content="Borer Treetops is a psychedelic rock/dream pop project from Cambridge, UK.">
+  <meta property="og:title" content="Borer Treetops">
+  <meta property="og:type" content="website">
+  <meta property="og:description" content="Borer Treetops is a psychedelic-rock/dream pop project from Cambridge, UK.">
+  <meta property="og:url" content="https://borertreetops.com">
+  <meta property="og:site_name" content="Borer Treetops">
+  <meta property="og:image" content="https://borertreetops/img/logo_square_min.png">
 
-    <meta name="description" content="Borer Treetops is a psychedelic rock/dream pop project from Cambridge, UK.">
-    <meta property="og:title" content="Borer Treetops">
-    <meta property="og:type" content="website">
-    <meta property="og:description" content="Borer Treetops is a psychedelic-rock/dream pop project from Cambridge, UK.">
-    <meta property="og:url" content="https://borertreetops.com">
-    <meta property="og:site_name" content="Borer Treetops">
-    <meta property="og:image" content="https://borertreetops/img/core-img/logo_square_min.png">
+  <!-- Favicon -->
+  <link rel="icon" href="img/favicons/favicon.ico">
+  <link rel="apple-touch-icon" sizes="180x180" href="img/favicons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="img/favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="img/favicons/favicon-16x16.png">
+  <link rel="manifest" href="img/favicons/site.webmanifest">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#000000">
 
-    <script type="application/ld+json">
-        {
-            "@context": "http://schema.org",
-            "@type": "WebSite",
-            "name": "Borer Treetops",
-            "description": "Borer Treetops is a psychedelic rock/dream pop project from Cambridge, UK.",
-            "url": "https://borertreetops.com",
-            "image": "https://borertreetops.com/img/core-img/logo_square_min.png"
-        }
-    </script>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
 
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-D6KGM31WBT"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
+  <!-- Style CSS -->
+  <link rel="stylesheet" href="css/style.css">
 
-      gtag('config', 'G-D6KGM31WBT');
-    </script>
+  <!-- Responsive-->
+  <link rel="stylesheet" href="css/responsive.css">
+
+  <!-- Scrollbar Custom CSS -->
+  <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
+
+  <!-- Tweaks for older IEs-->
+  <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
+<!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+
+  <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "WebSite",
+      "name": "Borer Treetops",
+      "description": "Borer Treetops is a psychedelic rock/dream pop project from Cambridge, UK.",
+      "url": "https://borertreetops.com",
+      "image": "https://borertreetops.com/img/core-img/logo_square_min.png"
+    }
+  </script>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-D6KGM31WBT"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-D6KGM31WBT');
+  </script>
 
 </head>
 
-<body>
-    <!-- Preloader -->
-    <div class="preloader d-flex align-items-center justify-content-center">
-        <div class="lds-ellipsis">
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
+<body class="main-layout">
+
+  <!-- Loader  -->
+  <div class="loader_bg">
+    <div class="loader"><img src="img/loading.gif" alt="#" /></div>
+  </div>
+  <!-- End Loader -->
+
+  <!-- Header -->
+  <header>
+    <!-- Header Inner -->
+    <div class="header-top">
+      <div class="header">
+        <div class="container">
+          <div class="row">
+            <div class="col-xl-2 col-lg-2 col-md-2 col-sm-3 col logo_section">
+              <div class="full">
+                <div class="center-desk">
+                  <div class="logo">
+                    <a href="index.html"><img src="img/logo_simple_white.png" alt="Borer Treetops" /></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Navigation -->
+            <div class="col-xl-10 col-lg-10 col-md-10 col-sm-9">
+              <div class="menu-area">
+                <div class="limit-box">
+                  <nav class="main-menu ">
+                    <ul class="menu-area-main">
+                      <li> <a href="index.html">Home </a> </li>
+                      <li> <a href="#about">About </a> </li>
+                      <li> <a href="#reviews">Reviews </a> </li>
+                      <li> <a href="#releases">Releases </a> </li>
+                      <li> <a href="#contact">Contact </a> </li>
+                      <li>  </li>
+                    </ul>
+                  </nav>
+                </div>
+              </div>
+            </div>
+            <!-- End Navigation -->
+
+          </div>
         </div>
+      </div>
+
+    <section class="slider_section">
+
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        </ol>
+
+        <!-- Main Slide -->
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="container">
+              <div class="carousel-caption">
+                <div class="row">
+                  <div class="col-md-12">
+                    <div class="text-bg">
+                      <h1>Borer Treetops</h1>
+                      <a href="fifth_fundamental_force.html">Fifth Fundamental Force </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- End Main Slide -->
+
+      </div>
+    </section>
     </div>
+    <!-- End Header Inner -->
 
-    <!-- ##### Header Area Start ##### -->
-    <header class="header-area">
-        <!-- Navbar Area -->
-        <div class="oneMusic-main-menu">
-            <div class="classy-nav-container breakpoint-off">
-                <div class="container">
-                    <!-- Menu -->
-                    <nav class="classy-navbar justify-content-between" id="oneMusicNav">
+  </header>
+  <!-- End Header -->
 
-                        <!-- Nav brand -->
-                        <a href="index.html" class="nav-brand"><img src="img/core-img/logo2_simple_white.png" alt="Borer Treetops"></a>
+  <!-- About  -->
+  <div id="about" class="about">
+    <div class="container">
+      <div class="row display_boxflex">
+        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+          <div class="about-box">
+            <h2>Borer Treetops</h2>
+            <p>Borer Treetops is a psychedelic rock/dream pop project from Cambridge, UK. <br>
+            Borer Treetops take great inspiration from both old-school and modern psychedelic music,
+            with a bit of electronic touches as well as pop and indie references. Spacey and dreamy
+            music blends with intimate lyrics, exploring the infinite shades of human feelings.
+            </p>
+          </div>
+          <h3>
+            <a href="https://www.facebook.com/borertreetops" title="Borer Treetops - Facebook" target="_blank">
+              <i class="fa fa-facebook"></i>
+            </a>
+                &nbsp;&nbsp;
 
-                        <!-- Navbar Toggler -->
-                        <div class="classy-navbar-toggler">
-                            <span class="navbarToggler"><span></span><span></span><span></span></span>
-                        </div>
+            <a href="https://www.instagram.com/borertreetops" title="Borer Treetops - Instagram" target="_blank">
+              <i class="fa fa-instagram"></i>
+            </a>
+                &nbsp;&nbsp;
 
-                        <!-- Menu -->
-                        <div class="classy-menu">
+            <a href="https://www.youtube.com/@borertreetops" title="Borer Treetops - YouTube" target="_blank">
+              <i class="fa fa-youtube"></i>
+            </a>
+                &nbsp;&nbsp;
 
-                            <!-- Close Button -->
-                            <div class="classycloseIcon">
-                                <div class="cross-wrap"><span class="top"></span><span class="bottom"></span></div>
-                            </div>
+            <a href="https://open.spotify.com/artist/5rXOzZ2sm1q8OQ6jm9vENi" title="Borer Treetops - Spotify" target="_blank">
+              <i class="fa fa-spotify"></i>
+            </a>
+                &nbsp;&nbsp;
 
-                            <!-- Nav Start -->
-                            <div class="classynav">
-                                <ul>
-                                    <li><a href="index.html">Home</a></li>
-                                    <li><a href="#about">About</a></li>
-                                    <li><a href="#news">News</a></li>
-                                    <li><a href="#reviews">Reviews</a></li>
-                                    <li><a href="#contact">Contact</a></li>
-                                </ul>
-                            </div>
-                            <!-- Nav End -->
+            <a href="https://soundcloud.com/borertreetops" title="Borer Treetops - Soundcloud" target="_blank">
+              <i class="fa fa-soundcloud"></i>
+            </a>
+                &nbsp;&nbsp;
 
-                        </div>
-                    </nav>
-                </div>
-            </div>
+            <a href="https://borertreetops.bandcamp.com" title="Borer Treetops - Bandcamp" target="_blank">
+              <i class="fa fa-bandcamp"></i>
+            </a>
+                &nbsp;&nbsp;
+
+            <a href="https://music.apple.com/gb/artist/borer-treetops/1549176507" title="Borer Treetops - Apple Music" target="_blank">
+              <i class="fa fa-apple"></i>
+            </a>
+          </h3>
         </div>
-    </header>
-    <!-- ##### Header Area End ##### -->
+        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+          <div class="about-box">
+            <figure><img src="img/BT_picture_4_crop.png" alt="Borer Treetops" /></figure>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End About -->
 
-    <!-- ##### Hero Area Start ##### -->
-    <section class="hero-area">
-        <div class="hero-slides owl-carousel">
-            <!-- Single Hero Slide -->
-            <div class="single-hero-slide d-flex align-items-center justify-content-center">
-                <!-- Slide Img -->
-                <div class="slide-img bg-img" style="background-image: url(img/releases/cover_fifth_fundamental_force_1800.png);"></div>
-                <!-- Slide Content -->
-                <div class="container">
-                    <div class="row">
-                        <div class="col-12">
-                            <div class="hero-slides-content text-center">
-                                <h2 data-animation="fadeInUp" data-delay="300ms">Borer Treetops <span>Borer Treetops</span></h2>
-                                <a data-animation="fadeInUp" data-delay="500ms" href="fifth_fundamental_force.html" class="btn oneMusic-btn mt-50">Fifth Fundamental Force out now! <i class="fa fa-angle-double-right"></i></a>
-                                <br><br>
-<!--                                <h6 data-animation="fadeInUp" data-delay="100ms">Coming soon...</h6>-->
-                            </div>
-                        </div>
-                    </div>
-                </div>
+  <!-- Reviews -->
+  <div id="reviews" class="upcoming">
+    <div class="container-fluid padding_left3">
+      <div class="row display_boxflex">
+        <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12">
+          <div class="box_text">
+            <div class="titlepage">
+              <h2>Reviews</h2>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xl-7 col-lg-7 col-md-7 col-sm-12 border_right">
+          <div class="upcomimg">
+            <h3>Fifth Fundamental Force</h3>
+            <p>"Fifth Fundamental Force takes one on a journey – a journey through forces indescribable, and oft-times unmanageable. But the album, through its music, shows that humanity – that love – is just as essential as any pervasive cosmic building block carved across billions of years, and through the undulating, unrelenting construction/destruction responsible for our current physical footing. If you’re wondering what it sounds like to weave humanity’s heart throughout reality’s profound fabric, I think we found the perfect album."
+              <br>
+              <a href="https://thearkofmusic.com/borer-treetops-fifth-fundamental-force/" title="The Ark of Music" target="_blank">The Ark of Music</a>
+            </p>
+            <br>
+
+            <h3>Serendipity</h3>
+            <p>"Serendipity captures the listener with its dreamy, ethereal textures and holds this attention with its heavy serving of pop hooks and introspective storytelling. This album almost sounds like a cool mash-up between Tame Impala and The Stone Roses circa 1989, but to truly get the picture, you’ll just have to put it on repeat and get lost in its vortex of lush, trippy grooves."
+              <br>
+              <a href="https://thearkofmusic.com/borer-treetops-serendipity/" title="The Ark of Music" target="_blank">The Ark of Music</a>
+            </p>
+            <br>
+
+            <h3>White Pearls</h3>
+            <p>"An excellent showing of growth and artist development from Borer Treetops. On White Pearls, you can clearly see that they are finding their niche and becoming more comfortable creating their brand of insightful electronic music. With heartfelt stories that feel emotional and genuine and a deep understanding of using production to further the message at hand, we’d call White Pearls a bonafide success and deem it worth a listen for any electronic/alternative fan."
+              <br>
+              <a href="https://thearkofmusic.com/borer-treetops-white-pearls/" title="The Ark of Music" target="_blank">The Ark of Music</a>
+            </p>
+            <br>
+
+            <h3>Loud Silence</h3>
+            <p>"Loud Silence is primarily driven by complex layers of synths carrying bright melodies. Perhaps a bit reminiscent of MGMT, the overall energy on this album is a well-blended mix of upbeat and laid-back. There’s a spacey, dreamy feel through many of the tracks, creating a cohesive listening experience across its length."
+              <br>
+              <a href="https://thearkofmusic.com/borer-treetops-loud-silence/" title="The Ark of Music" target="_blank">The Ark of Music</a>
+            </p>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End Reviews -->
+
+  <!-- Releases -->
+  <div id="releases" class="Gallery">
+    <div class="container">
+      <div class="row display_boxflex">
+        <div class="col-xl-8 col-lg-8 col-md-8 col-sm-12">
+          <div class="row">
+
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 margi_bott">
+              <div class="Gallery_img">
+                <figure><img src="img/releases/cover_fifth_fundamental_force_1800.png" alt="Fifth Fundamental Force"/></figure>
+              </div>
+
+              <div class="hover_box">
+                <ul class="icon_hu">
+                  <li><a href="fifth_fundamental_force.html"><h3>Fifth Fundamental Force</h3></a></li>
+                </ul>
+              </div>
             </div>
 
-            <!-- Single Hero Slide -->
-<!--            <div class="single-hero-slide d-flex align-items-center justify-content-center">-->
-<!--                &lt;!&ndash; Slide Img &ndash;&gt;-->
-<!--                <div class="slide-img bg-img" style="background-image: url(img/bg-img/fern_bg.jpg);"></div>-->
-<!--                &lt;!&ndash; Slide Content &ndash;&gt;-->
-<!--                <div class="container">-->
-<!--                    <div class="row">-->
-<!--                        <div class="col-12">-->
-<!--                            <div class="hero-slides-content text-center">-->
-<!--                                <h2 data-animation="fadeInUp" data-delay="300ms">Borer Treetops <span>Borer Treetops</span></h2>-->
-<!--                                <a data-animation="fadeInUp" data-delay="500ms" href="chisholm.html" class="btn oneMusic-btn mt-50">Fifth Fundamental Force <i class="fa fa-angle-double-right"></i></a>-->
-<!--                                <br><br>-->
-<!--                                <h6 data-animation="fadeInUp" data-delay="100ms">Coming soon...</h6>-->
-<!--                            </div>-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--            </div>-->
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 margi_bott">
+              <div class="Gallery_img">
+                <figure><img src="img/releases/cover_serendipity_1800.png" alt="Serendipity"/></figure>
+              </div>
 
-            <!-- Single Hero Slide -->
-<!--            <div class="single-hero-slide d-flex align-items-center justify-content-center">-->
-<!--                &lt;!&ndash; Slide Img &ndash;&gt;-->
-<!--                <div class="slide-img bg-img" style="background-image: url(img/core-img/BT_picture_1.jpg);"></div>-->
-<!--                &lt;!&ndash; Slide Content &ndash;&gt;-->
-<!--                <div class="container">-->
-<!--                    <div class="row">-->
-<!--                        <div class="col-12">-->
-<!--                            <div class="hero-slides-content text-center">-->
-<!--                                <h2 data-animation="fadeInUp" data-delay="300ms">Borer Treetops <span>Borer Treetops</span></h2>-->
-<!--                                <a data-animation="fadeInUp" data-delay="500ms" href="chisholm.html" class="btn oneMusic-btn mt-50">Fifth Fundamental Force <i class="fa fa-angle-double-right"></i></a>-->
-<!--                                <br><br>-->
-<!--                                <h6 data-animation="fadeInUp" data-delay="100ms">Coming soon...</h6>-->
-<!--                            </div>-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--            </div>-->
-
-            <!-- Single Hero Slide -->
-<!--            <div class="single-hero-slide d-flex align-items-center justify-content-center">-->
-<!--                &lt;!&ndash; Slide Img &ndash;&gt;-->
-<!--                <div class="slide-img bg-img" style="background-image: url(img/core-img/BT_picture_2.jpg);"></div>-->
-<!--                &lt;!&ndash; Slide Content &ndash;&gt;-->
-<!--                <div class="container">-->
-<!--                    <div class="row">-->
-<!--                        <div class="col-12">-->
-<!--                            <div class="hero-slides-content text-center">-->
-<!--                                <h2 data-animation="fadeInUp" data-delay="300ms">Borer Treetops <span>Borer Treetops</span></h2>-->
-<!--                                <a data-animation="fadeInUp" data-delay="500ms" href="chisholm.html" class="btn oneMusic-btn mt-50">Fifth Fundamental Force <i class="fa fa-angle-double-right"></i></a>-->
-<!--                                <br><br>-->
-<!--                                <h6 data-animation="fadeInUp" data-delay="100ms">Coming soon...</h6>-->
-<!--                            </div>-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--            </div>-->
-
-            <!-- Single Hero Slide -->
-<!--            <div class="single-hero-slide d-flex align-items-center justify-content-center">-->
-<!--                &lt;!&ndash; Slide Img &ndash;&gt;-->
-<!--                <div class="slide-img bg-img" style="background-image: url(img/core-img/BT_picture_3.jpg);"></div>-->
-<!--                &lt;!&ndash; Slide Content &ndash;&gt;-->
-<!--                <div class="container">-->
-<!--                    <div class="row">-->
-<!--                        <div class="col-12">-->
-<!--                            <div class="hero-slides-content text-center">-->
-<!--                                <h2 data-animation="fadeInUp" data-delay="300ms">Borer Treetops <span>Borer Treetops</span></h2>-->
-<!--                                <a data-animation="fadeInUp" data-delay="500ms" href="chisholm.html" class="btn oneMusic-btn mt-50">Fifth Fundamental Force <i class="fa fa-angle-double-right"></i></a>-->
-<!--                                <br><br>-->
-<!--                                <h6 data-animation="fadeInUp" data-delay="100ms">Coming soon...</h6>-->
-<!--                            </div>-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--            </div>-->
-
-            <!-- Single Hero Slide -->
-<!--            <div class="single-hero-slide d-flex align-items-center justify-content-center">-->
-<!--                &lt;!&ndash; Slide Img &ndash;&gt;-->
-<!--                <div class="slide-img bg-img" style="background-image: url(img/core-img/BT_picture_4.jpg);"></div>-->
-<!--                &lt;!&ndash; Slide Content &ndash;&gt;-->
-<!--                <div class="container">-->
-<!--                    <div class="row">-->
-<!--                        <div class="col-12">-->
-<!--                            <div class="hero-slides-content text-center">-->
-<!--                                <h2 data-animation="fadeInUp" data-delay="300ms">Borer Treetops <span>Borer Treetops</span></h2>-->
-<!--                                <a data-animation="fadeInUp" data-delay="500ms" href="chisholm.html" class="btn oneMusic-btn mt-50">Fifth Fundamental Force <i class="fa fa-angle-double-right"></i></a>-->
-<!--                                <br><br>-->
-<!--                                <h6 data-animation="fadeInUp" data-delay="100ms">Coming soon...</h6>-->
-<!--                            </div>-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--            </div>-->
-        </div>
-    </section>
-    <!-- ##### Hero Area End ##### -->
-
-    <!-- ##### About Area Start ##### -->
-    <section id="about" class="featured-artist-area section-padding-100 bg-img bg-overlay bg-fixed" style="background-image: url(img/core-img/treetops_studio.jpg);">
-        <div class="container">
-            <div class="row align-items-end">
-                <div class="col-12 col-md-4 col-lg-3">
-                    <div class="featured-artist-thumb">
-                        <img src="img/core-img/logo_square_min.png" alt="Borer Treetops">
-                    </div>
-                </div>
-                <div class="col-12 col-md-8 col-lg-9">
-                    <div class="featured-artist-content">
-                        <!-- Section Heading -->
-                        <div class="section-heading white text-left mb-30">
-                            <h2>Borer Treetops</h2>
-                        </div>
-                        <p>Borer Treetops is a psychedelic rock/dream pop project from Cambridge, UK. <br>
-                            Borer Treetops take great inspiration from both old-school and modern psychedelic music,
-                            with a bit of electronic touches as well as pop and indie references. Spacey and dreamy
-                            music blends with intimate lyrics, exploring the infinite shades of human feelings.</p>
-                    </div>
-                </div>
+              <div class="hover_box">
+                <ul class="icon_hu">
+                  <li><a href="serendipity.html"><h3>Serendipity</h3></a></li>
+                </ul>
+              </div>
             </div>
-        </div>
-    </section>
-    <!-- ##### About Area End ##### -->
 
-    <!-- ##### News Area Start ##### -->
-    <section id="news" class="latest-albums-area section-padding-100">
-        <div class="container">
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 margi_bott1">
+              <div class="Gallery_img">
+                <figure><img src="img/releases/cover_white_pearls_1800.jpg" alt="White Pearls"/></figure>
+              </div>
+
+              <div class="hover_box">
+                <ul class="icon_hu">
+                  <li><a href="white_pearls.html"><h3>White Pearls</h3></a></li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+              <div class="Gallery_img">
+                <figure><img src="img/releases/cover_loud_silence_1800.png" alt="Loud Silence"/></figure>
+              </div>
+
+              <div class="hover_box">
+                <ul class="icon_hu">
+                  <li><a href="loud_silence.html"><h3>Loud Silence</h3></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+          <div class="Gallery_text">
+            <div class="titlepage">
+              <h2>Releases</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End Releases -->
+
+  <!-- Footer -->
+  <footer>
+    <div id="contact" class="footer ">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <form class="contact_bg" action="https://formspree.io/f/xnqoggpn" method="POST">
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="titlepage">
+                    <h2>Get In Touch</h2>
+                  </div>
+
+                  <div class="col-md-12">
+                    <input class="contactus" placeholder="Name" type="text" id="name">
+                  </div>
+
+                  <div class="col-md-12">
+                    <input class="contactus" placeholder="Email" type="email" id="email">
+                  </div>
+
+                  <div class="col-md-12">
+                    <input class="contactus" placeholder="Subject" type="text" id="subject">
+                  </div>
+
+                  <div class="col-md-12">
+                    <textarea class="textarea" placeholder="Message" name="message" id="message"></textarea>
+                  </div>
+
+                  <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+                    <button class="send" type="submit">Send</button>
+                  </div>
+
+                </div>
+              </div>
+            </form>
+          </div>
+
+          <div class="col-md-12 border_top">&nbsp;</div>
+
+          <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 ">
             <div class="row">
-                <div class="col-12">
-                    <div class="section-heading style-2">
-                        <h2>News</h2>
-                    </div>
+              <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 ">
+                <div class="address">
+                  <ul class="loca">
+                    <li>
+                      <a href="mailto:borertreetops@gmail.com"><i class="fa fa-envelope"></i> &nbsp; borertreetops@gmail.com</a>
+                    </li>
+                  </ul>
+
+                  <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 ">
+                    <ul class="social_link">
+                      <li><a href="https://www.facebook.com/borertreetops" title="Borer Treetops - Facebook" target="_blank">
+                        <i class="fa fa-facebook" aria-hidden="true"></i>
+                      </a></li>
+
+                      <li><a href="https://www.instagram.com/borertreetops" title="Borer Treetops - Instagram" target="_blank">
+                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                      </a></li>
+
+                      <li><a href="https://www.youtube.com/@borertreetops" title="Borer Treetops - YouTube" target="_blank">
+                        <i class="fa fa-youtube" aria-hidden="true"></i>
+                      </a></li>
+
+                      <li><a href="https://open.spotify.com/artist/5rXOzZ2sm1q8OQ6jm9vENi" title="Borer Treetops - Spotify" target="_blank">
+                        <i class="fa fa-instagram" aria-hidden="true"></i>
+                      </a></li>
+
+                      <li><a href="https://soundcloud.com/borertreetops" title="Borer Treetops - Soundcloud" target="_blank">
+                        <i class="fa fa-soundcloud" aria-hidden="true"></i>
+                      </a></li>
+
+                      <li><a href="https://borertreetops.bandcamp.com" title="Borer Treetops - Bandcamp" target="_blank">
+                        <i class="fa fa-bandcamp" aria-hidden="true"></i>
+                      </a></li>
+
+                      <li><a href="https://music.apple.com/gb/artist/borer-treetops/1549176507" title="Borer Treetops - Apple Music" target="_blank">
+                        <i class="fa fa-apple" aria-hidden="true"></i>
+                      </a></li>
+                    </ul>
+                  </div>
                 </div>
+              </div>
             </div>
 
-            <div class="blog-area .section-padding-0-10">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-12 col-lg-9">
-
-                            <!-- Single Post Start -->
-                            <div class="single-blog-post mb-60 wow fadeInUp" data-wow-delay="100ms">
-                                <!-- Post Thumb -->
-                                <div class="blog-post-thumb mt-30">
-                                    <!-- Post Date -->
-                                    <div class="post-date">
-                                        <span>29</span>
-                                        <span>Sep 23</span>
-                                    </div>
-                                </div>
-
-                                <!-- Blog Content -->
-                                <div class="blog-content">
-                                    <!-- Post Title -->
-                                    <a href="fifth_fundamental_force.html" class="post-title">Fifth Fundamental Force, out now!</a>
-                                    <!-- Post Excerpt -->
-                                    <p>According to the laws of physics, four fundamental forces rule our whole universe: gravity, electromagnetism, the strong nuclear force and the weak one. They seem to control almost every phenomenon, from subatomic to macroscopic interactions; but they can't explain all of them.
-                                        There must be something else involved here, and there's a lot of speculation about what this fifth fundamental force might actually be.<br>
-                                        <br>
-                                        Being the romantic guy that I am, I thought: how wonderful would it be if this missing link was, simply enough, love?
-                                        So that's how Fifth Fundamental Force was born. A celebration of love, much like any of my previous albums, possibly with a stronger awareness that, regardless of the outcome, love is always a feeling that should be experienced to the fullest.
-                                        It's not the destination, but the journey that matters.<br>
-                                        <br>
-                                        I hope you enjoy this one, with much love.</p>
-                                    <br>
-
-                                    <div class="text-center">
-                                        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/7ttVkp71lJizHJVVfF7lll" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-                                        <p>
-                                            <a href="https://open.spotify.com/album/7ttVkp71lJizHJVVfF7lll" title="Fifth Fundamental Force - Spotify" target="_blank">
-                                                <i class="fa fa-spotify"></i>
-                                            </a>&nbsp;
-                                            <a href="https://music.apple.com/gb/album/fifth-fundamental-force/1704303250" title="Fifth Fundamental Force - Apple Music" target="_blank">
-                                                <i class="fa fa-apple"></i>
-                                            </a>&nbsp;
-                                            <a href="https://borertreetops.bandcamp.com/album/fifth-fundamental-force" title="Fifth Fundamental Force - Bandcamp" target="_blank">
-                                                <i class="fa fa-bandcamp"></i>
-                                            </a>&nbsp;
-                                            <a href="https://soundcloud.com/borertreetops/sets/fifth-fundamental-force" title="Fifth Fundamental Force - Soundcloud" target="_blank">
-                                                <i class="fa fa-soundcloud"></i>
-                                            </a>&nbsp;
-                                            <a href="https://www.youtube.com/watch?v=TkaAVem-m7s&list=OLAK5uy_mKQ0nlCvPsE4RQwggxD5saV6qktJp0-1o" title="Fifth Fundamental Force - YouTube" target="_blank">
-                                                <i class="fa fa-youtube"></i>
-                                            </a>
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!-- Single Post Start -->
-                            <div class="single-blog-post mb-60 wow fadeInUp" data-wow-delay="100ms">
-                                <!-- Post Thumb -->
-                                <div class="blog-post-thumb mt-30">
-                                    <!-- Post Date -->
-                                    <div class="post-date">
-                                        <span>11</span>
-                                        <span>Aug 23</span>
-                                    </div>
-                                </div>
-
-                                <!-- Blog Content -->
-                                <div class="blog-content">
-                                    <!-- Post Title -->
-                                    <a href="chisholm.html" class="post-title">New single - Chisholm</a>
-                                    <!-- Post Excerpt -->
-                                    <p>After a very short break, here I am with some new music. <br>
-                                        This is Chisholm, a new single extracted from my upcoming album Fifth Fundamental Force.<br><br></p>
-
-                                    <div class="text-center">
-                                        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/7yJQBoVKZm1GBQl0TkSkEZ" width="100%" height="160" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-                                    </div>
-                                    <hr>
-                                        <p>This time, I also had some fun shooting a video for it, check it out!<br><br></p>
-
-                                    <div class="text-center">
-                                        <iframe width="100%" height="380" src="https://www.youtube.com/embed/pFIOZneQzX4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                                    </div>
-
-                                    <br>
-
-                                    <div class="text-center">
-
-                                        <p>
-                                            <a href="https://open.spotify.com/album/7yJQBoVKZm1GBQl0TkSkEZ" title="Chisholm - Spotify" target="_blank">
-                                                <i class="fa fa-spotify"></i>
-                                            </a>&nbsp;
-                                            <a href="https://music.apple.com/it/album/chisholm-single/1696492108" title="Chisholm - Apple Music" target="_blank">
-                                                <i class="fa fa-apple"></i>
-                                            </a>&nbsp;
-                                            <a href="https://borertreetops.bandcamp.com/track/chisholm" title="Chisholm - Bandcamp" target="_blank">
-                                                <i class="fa fa-bandcamp"></i>
-                                            </a>&nbsp;
-                                            <a href="https://soundcloud.com/borertreetops/sets/chisholm" title="Chisholm - Soundcloud" target="_blank">
-                                                <i class="fa fa-soundcloud"></i>
-                                            </a>&nbsp;
-                                            <a href="https://www.youtube.com/watch?v=x-n3ko8ckBk" title="Chisholm - YouTube" target="_blank">
-                                                <i class="fa fa-youtube"></i>
-                                            </a>
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!-- Single Post Start -->
-                            <div class="single-blog-post mb-60 wow fadeInUp" data-wow-delay="100ms">
-                                <!-- Post Thumb -->
-                                <div class="blog-post-thumb mt-30">
-                                    <!-- Post Date -->
-                                    <div class="post-date">
-                                        <span>03</span>
-                                        <span>Feb 23</span>
-                                    </div>
-                                </div>
-
-                                <!-- Blog Content -->
-                                <div class="blog-content">
-                                    <!-- Post Title -->
-                                    <a href="serendipity.html" class="post-title">Serendipity is out!</a>
-                                    <!-- Post Excerpt -->
-                                    <p>By definition, serendipity is an unexpected, fortunate occurrence we might stumble upon while looking for something else. <br>
-                                        Serendipity is the hint of sunshine on a rainy day, your favourite song popping up in a playlist you don't really like,
-                                        the 10£ bill found in a pair of jeans you last wore months ago, the smile of a stranger on your way home after a bad day. <br>
-                                    Serendipity is finding love when you least expect it. <br>
-                                    This is the feeling our new album, Serendipity, wants to convey. Hope you enjoy!</p>
-
-                                    <br>
-                                    <div class="text-center">
-                                        <iframe src="https://open.spotify.com/embed/album/1tqxyoTamPB5pejwXC1kiq" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
-                                        <p>
-                                            <a href="https://open.spotify.com/album/1tqxyoTamPB5pejwXC1kiq" title="Serendipity - Spotify" target="_blank">
-                                                <i class="fa fa-spotify"></i>
-                                            </a>&nbsp;
-                                            <a href="https://music.apple.com/album/serendipity/1664610278" title="Serendipity - Apple Music" target="_blank">
-                                                <i class="fa fa-apple"></i>
-                                            </a>&nbsp;
-                                            <a href="https://borertreetops.bandcamp.com/album/serendipity" title="Serendipity - Bandcamp" target="_blank">
-                                                <i class="fa fa-bandcamp"></i>
-                                            </a>&nbsp;
-                                            <a href="https://soundcloud.com/borertreetops/sets/serendipity" title="Serendipity - Soundcloud" target="_blank">
-                                                <i class="fa fa-soundcloud"></i>
-                                            </a>&nbsp;
-                                            <a href="https://www.youtube.com/playlist?list=OLAK5uy_ksdbOxKS0ylwRHnJz4HqqWfLraUVk0vnc" title="Serendipity - YouTube" target="_blank">
-                                                <i class="fa fa-youtube"></i>
-                                            </a>
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!-- Single Post Start -->
-                            <div class="single-blog-post mb-60 wow fadeInUp" data-wow-delay="100ms">
-                                <!-- Post Thumb -->
-                                <div class="blog-post-thumb mt-30">
-                                    <!-- Post Date -->
-                                    <div class="post-date">
-                                        <span>06</span>
-                                        <span>Jan 23</span>
-                                    </div>
-                                </div>
-
-                                <!-- Blog Content -->
-                                <div class="blog-content">
-                                    <!-- Post Title -->
-                                    <a href="100_times.html" class="post-title">New single 100 Times released!</a>
-                                    <!-- Post Excerpt -->
-                                    <p>Our new single, 100 Times, is now available on all streaming platforms, enjoy!<br>
-                                    This one is extracted from our new album, Serendipity, coming out soon.</p>
-
-                                    <br>
-                                    <div class="text-center">
-                                        <iframe src="https://open.spotify.com/embed/album/5fuEzONosF7erB0SJPT1ow" width="100%" height="160" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
-                                        <p>
-                                            <a href="https://open.spotify.com/album/5fuEzONosF7erB0SJPT1ow" title="100 Times - Spotify" target="_blank">
-                                                <i class="fa fa-spotify"></i>
-                                            </a>&nbsp;
-                                            <a href="https://music.apple.com/album/100-times-single/1662177163" title="100 Times - Apple Music" target="_blank">
-                                                <i class="fa fa-apple"></i>
-                                            </a>&nbsp;
-                                            <a href="https://borertreetops.bandcamp.com/track/100-times" title="100 Times - Bandcamp" target="_blank">
-                                                <i class="fa fa-bandcamp"></i>
-                                            </a>&nbsp;
-                                            <a href="https://soundcloud.com/borertreetops/sets/100-times" title="100 Times - Soundcloud" target="_blank">
-                                                <i class="fa fa-soundcloud"></i>
-                                            </a>&nbsp;
-                                            <a href="https://www.youtube.com/playlist?list=OLAK5uy_mE2VRR275m7YXV9yvrE9wzPrDkSkcxzns" title="100 Times - YouTube" target="_blank">
-                                                <i class="fa fa-youtube"></i>
-                                            </a>
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!-- Single Post Start -->
-                            <div class="single-blog-post mb-60 wow fadeInUp" data-wow-delay="100ms">
-                                <!-- Post Thumb -->
-                                <div class="blog-post-thumb mt-30">
-                                    <!-- Post Date -->
-                                    <div class="post-date">
-                                        <span>04</span>
-                                        <span>Feb 22</span>
-                                    </div>
-                                </div>
-
-                                <!-- Blog Content -->
-                                <div class="blog-content">
-                                    <!-- Post Title -->
-                                    <a href="white_pearls.html" class="post-title">Our new album, White Pearls, is out!</a>
-                                    <!-- Post Excerpt -->
-                                    <p>Today we proudly release our new album, White Pearls!<br>
-                                        11 tracks full of love, tears, smiles, spacey sounds, dreamy landscapes and more. We hope you'll like it as much as we enjoyed doing it!</p>
-
-                                    <br>
-                                    <div class="text-center">
-                                        <iframe src="https://open.spotify.com/embed/album/3HlqdzphRDEcX0eq9jWYSg" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
-                                        <p>
-                                            <a href="https://open.spotify.com/album/3HlqdzphRDEcX0eq9jWYSg" title="White Pearls - Spotify" target="_blank">
-                                                <i class="fa fa-spotify"></i>
-                                            </a>&nbsp;
-                                            <a href="https://music.apple.com/album/white-pearls/1604054262" title="White Pearls - Apple Music" target="_blank">
-                                                <i class="fa fa-apple"></i>
-                                            </a>&nbsp;
-                                            <a href="https://borertreetops.bandcamp.com/album/white-pearls" title="White Pearls - Bandcamp" target="_blank">
-                                                <i class="fa fa-bandcamp"></i>
-                                            </a>&nbsp;
-                                            <a href="https://soundcloud.com/borertreetops/sets/white-pearls" title="White Pearls - Soundcloud" target="_blank">
-                                                <i class="fa fa-soundcloud"></i>
-                                            </a>&nbsp;
-                                           <a href="https://www.youtube.com/playlist?list=OLAK5uy_mhtz-VinX55SN9cCLYngCUhkp6fbvNYcs" title="White Pearls - YouTube" target="_blank">
-                                               <i class="fa fa-youtube"></i>
-                                           </a>
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!-- Single Post Start -->
-                            <div class="single-blog-post mb-60 wow fadeInUp" data-wow-delay="100ms">
-                                <!-- Post Thumb -->
-                                <div class="blog-post-thumb mt-30">
-                                    <!-- Post Date -->
-                                    <div class="post-date">
-                                        <span>17</span>
-                                        <span>Dec 21</span>
-                                    </div>
-                                </div>
-
-                                <!-- Blog Content -->
-                                <div class="blog-content">
-                                    <!-- Post Title -->
-                                    <a href="circles.html" class="post-title">Circles - new single dropped!</a>
-                                    <!-- Post Excerpt -->
-                                    <p>Another one's out!<br>
-                                        Please welcome Circles, our new single, now available on most streaming services.</p>
-                                    <br>
-                                    <div class="text-center">
-                                        <iframe src="https://open.spotify.com/embed/album/3XAHtdAyZEVvCJPLKBnq1x" width="100%" height="160" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
-                                        <p>
-                                            <a href="https://open.spotify.com/album/3XAHtdAyZEVvCJPLKBnq1x" title="Circles - Spotify" target="_blank">
-                                                <i class="fa fa-spotify"></i>
-                                            </a>&nbsp;
-                                            <a href="https://music.apple.com/album/circles-single/1596839515" title="Circles - Apple Music" target="_blank">
-                                                <i class="fa fa-apple"></i>
-                                            </a>&nbsp;
-                                            <a href="https://borertreetops.bandcamp.com/track/circles" title="Circles - Bandcamp" target="_blank">
-                                                <i class="fa fa-bandcamp"></i>
-                                            </a>&nbsp;
-                                            <a href="https://soundcloud.com/borertreetops/sets/circles" title="Circles - Soundcloud" target="_blank">
-                                                <i class="fa fa-soundcloud"></i>
-                                            </a>&nbsp;
-                                            <a href="https://www.youtube.com/playlist?list=OLAK5uy_mtWnkLsZ6V0qckB2z8d8XWB7bLs-1ROns" title="Circles - YouTube" target="_blank">
-                                                <i class="fa fa-youtube"></i>
-                                            </a>
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!-- Single Post Start -->
-                            <div class="single-blog-post mb-60 wow fadeInUp" data-wow-delay="100ms">
-                                <!-- Post Thumb -->
-                                <div class="blog-post-thumb mt-30">
-                                    <!-- Post Date -->
-                                    <div class="post-date">
-                                        <span>12</span>
-                                        <span>Nov 21</span>
-                                    </div>
-                                </div>
-
-                                <!-- Blog Content -->
-                                <div class="blog-content">
-                                    <!-- Post Title -->
-                                    <a href="484.html" class="post-title">New single 484 released!</a>
-                                    <!-- Post Excerpt -->
-                                    <p>Borer Treetops' new single "484" is finally out!<br>
-                                        Available on most digital platforms. Enjoy!</p>
-                                    <br>
-                                    <div class="text-center">
-                                        <iframe src="https://open.spotify.com/embed/album/3BdMhYw7OGbI9dM2GgY3Dz" width="100%" height="160" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
-                                        <p>
-                                            <a href="https://open.spotify.com/album/3BdMhYw7OGbI9dM2GgY3Dz" title="484 - Spotify" target="_blank">
-                                                <i class="fa fa-spotify"></i>
-                                            </a>&nbsp;
-                                            <a href="https://music.apple.com/album/484-single/1592826756" title="484 - Apple Music" target="_blank">
-                                                <i class="fa fa-apple"></i>
-                                            </a>&nbsp;
-                                            <a href="https://borertreetops.bandcamp.com/track/484" title="484 - Bandcamp" target="_blank">
-                                                <i class="fa fa-bandcamp"></i>
-                                            </a>&nbsp;
-                                            <a href="https://soundcloud.com/borertreetops/sets/484a1" title="484 - Soundcloud" target="_blank">
-                                                <i class="fa fa-soundcloud"></i>
-                                            </a>&nbsp;
-                                            <a href="https://www.youtube.com/playlist?list=OLAK5uy_lNKZNPIUhBcX0SIl4o4KDuTwnv18d6kVQ" title="484 - YouTube" target="_blank">
-                                                <i class="fa fa-youtube"></i>
-                                            </a>
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!-- Single Post Start -->
-                            <div class="single-blog-post mb-60 wow fadeInUp" data-wow-delay="100ms">
-                                <!-- Post Thumb -->
-                                <div class="blog-post-thumb mt-30">
-                                    <!-- Post Date -->
-                                    <div class="post-date">
-                                        <span>25</span>
-                                        <span>Feb 21</span>
-                                    </div>
-                                </div>
-
-                                <!-- Blog Content -->
-                                <div class="blog-content">
-                                    <!-- Post Title -->
-                                    <a href="loud_silence.html" class="post-title">Loud Silence is out!</a>
-                                    <!-- Post Excerpt -->
-                                    <p>The wait is finally over!
-                                        Our first full-length album, Loud Silence, is now available on all major streaming platforms!<br>
-                                        We put so much love and passion into it, and we're very proud of this work. Hope you'll like it too!</p>
-                                    <br>
-                                    <div class="text-center">
-                                        <iframe src="https://open.spotify.com/embed/album/7FwlwjJbF9t4g6ZiE23oVD" width="100%" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-                                        <p>
-                                            <a href="https://open.spotify.com/album/7FwlwjJbF9t4g6ZiE23oVD" title="Loud Silence - Spotify" target="_blank">
-                                                <i class="fa fa-spotify"></i>
-                                            </a>&nbsp;
-                                            <a href="https://music.apple.com/album/loud-silence/1555817700" title="Loud Silence - Apple Music" target="_blank">
-                                                <i class="fa fa-apple"></i>
-                                            </a>&nbsp;
-                                            <a href="https://borertreetops.bandcamp.com/album/loud-silence" title="Loud Silence - Bandcamp" target="_blank">
-                                                <i class="fa fa-bandcamp"></i>
-                                            </a>&nbsp;
-                                            <a href="https://soundcloud.com/borertreetops/sets/loud-silence" title="Loud Silence - Soundcloud" target="_blank">
-                                                <i class="fa fa-soundcloud"></i>
-                                            </a>&nbsp;
-                                            <a href="https://youtube.com/playlist?list=OLAK5uy_ldhtzzI20s8-ZHi0WPHK83R7s-Vdk_hJk" title="Loud Silence - YouTube" target="_blank">
-                                                <i class="fa fa-youtube"></i>
-                                            </a>
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- ##### Releases Area Start ##### -->
-                        <div class="col-12 col-lg-3">
-                            <div class="blog-sidebar-area">
-                                <div class="section-heading-mt-50">
-                                    <h2>Releases</h2>
-                                </div>
-
-                                <!-- Widget Area -->
-                                <div class="single-widget-area mb-30">
-                                    <a href="fifth_fundamental_force.html"><img src="img/releases/cover_fifth_fundamental_force_1800.png" alt="Fifth Fundamental Force"></a>
-                                </div>
-
-                                <!-- Widget Area -->
-                                <div class="single-widget-area mb-30">
-                                    <a href="chisholm.html"><img src="img/releases/cover_chisholm_1800.png" alt="Chisholm"></a>
-                                </div>
-
-                                <!-- Widget Area -->
-                                <div class="single-widget-area mb-30">
-                                    <a href="serendipity.html"><img src="img/releases/cover_serendipity_1800.png" alt="Serendipity"></a>
-                                </div>
-
-                                <!-- Widget Area -->
-                                <div class="single-widget-area mb-30">
-                                    <a href="100_times.html"><img src="img/releases/cover_100_times_1800.png" alt="100 Times"></a>
-                                </div>
-
-                                <!-- Widget Area -->
-                                <div class="single-widget-area mb-30">
-                                    <a href="white_pearls.html"><img src="img/releases/cover_white_pearls_1800.jpg" alt="White Pearls"></a>
-                                </div>
-
-                                <!-- Widget Area -->
-                                <div class="single-widget-area mb-30">
-                                    <a href="circles.html"><img src="img/releases/cover_circles_1800.jpg" alt="Circles"></a>
-                                </div>
-
-                                <!-- Widget Area -->
-                                <div class="single-widget-area mb-30">
-                                    <a href="484.html"><img src="img/releases/cover_484_1800.jpg" alt="484"></a>
-                                </div>
-
-                                <!-- Widget Area -->
-                                <div class="single-widget-area mb-30">
-                                    <a href="loud_silence.html"><img src="img/releases/cover_loud_silence_1800.png" alt="Loud Silence"></a>
-                                </div>
-
-                                <!-- Widget Area -->
-                                <div class="single-widget-area mb-30">
-                                    <a href="addictions.html"><img src="img/releases/cover_addictions_1800.png" alt="Addictions"></a>
-                                </div>
-
-                            </div>
-                        </div>
-                        <!-- ##### Releases Area End ##### -->
-
-                    </div>
-                </div>
+            <div class="container">
+              <div class="copyright">
+                <p>Copyright 2024 All Right Reserved By <a href="https://html.design/">Free html Templates</a></p>
+              </div>
             </div>
-
-            <p id="reviews"></p><br>
-
-            <!-- ##### Reviews Area Start ##### -->
-            <div class="row justify-content-center">
-                <div class="col-12 col-lg-12">
-                    <div class="ablums-text text-center mb-70">
-                        <hr>
-                        <br>
-                        <div class="section-heading-mb-50">
-                            <h2>Reviews</h2>
-                        </div>
-                        <div class="row">
-                            <div class="col-6">
-                                <h3>Fifth Fundamental Force</h3>
-                                <p>"Fifth Fundamental Force takes one on a journey – a journey through forces indescribable, and oft-times unmanageable. But the album, through its music, shows that humanity – that love – is just as essential as any pervasive cosmic building block carved across billions of years, and through the undulating, unrelenting construction/destruction responsible for our current physical footing. If you’re wondering what it sounds like to weave humanity’s heart throughout reality’s profound fabric, I think we found the perfect album."
-                                    <br>
-                                    <a href="https://thearkofmusic.com/borer-treetops-fifth-fundamental-force/" title="The Ark of Music" target="_blank">The Ark of Music</a></p>
-                            </div>
-                            <div class="col-6">
-                                <h3>Serendipity</h3>
-                                <p>"Serendipity captures the listener with its dreamy, ethereal textures and holds this attention with its heavy serving of pop hooks and introspective storytelling. This album almost sounds like a cool mash-up between Tame Impala and The Stone Roses circa 1989, but to truly get the picture, you’ll just have to put it on repeat and get lost in its vortex of lush, trippy grooves."
-                                    <br>
-                                    <a href="https://thearkofmusic.com/borer-treetops-serendipity/" title="The Ark of Music" target="_blank">The Ark of Music</a></p>
-<!--                                <p>"Serendipity is an album that is sure to please music lovers of all kinds. With its unique blend of old-school and modern psychedelia, pop and indie elements, as well as its captivating visuals, it’s an album that is sure to make an impression. If you’re looking for something new and imaginative, then you should definitely give Borer Treetops’ Serendipity a listen."-->
-<!--                                    <br>-->
-<!--                                    <a href="https://musicinsiderglobal.com/2023/03/exploring-serendipity-borer-treetops-latest-album/" title="Music Insider" target="_blank">Music Insider</a></p>-->
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-6">
-                                <h3>White Pearls</h3>
-                                <p>"An excellent showing of growth and artist development from Borer Treetops. On White Pearls, you can clearly see that they are finding their niche and becoming more comfortable creating their brand of insightful electronic music. With heartfelt stories that feel emotional and genuine and a deep understanding of using production to further the message at hand, we’d call White Pearls a bonafide success and deem it worth a listen for any electronic/alternative fan."
-                                    <br>
-                                    <a href="https://thearkofmusic.com/borer-treetops-white-pearls/" title="The Ark of Music" target="_blank">The Ark of Music</a></p>
-<!--                                <p>"White Pearls encompasses spacey and dreamy music blending with subtle beats and melodies along with intimately phrased lyrics [...] <br>It’s amazing how the music brings out complex human emotions inspiring a whole new world of imagination"-->
-<!--                                    <br>-->
-<!--                                    <a href="https://musicinsiderglobal.com/2022/02/borer-treetops-album-white-pearls-officially-released/" title="Music Insider" target="_blank">Music Insider</a></p>-->
-<!--                                <p>"What comes across feels very much like electro-dream pop straight from the ‘70s or ‘80s. Spacey and dreamy at the same time, the record is jam-packed with loads of atmosphere. Fans of Pink Floyd will love this"-->
-<!--                                    <br> Final rating: 3.8 out of 5 <br>-->
-<!--                                    <a href="https://www.divideandconquermusic.com/indie-music-album-reviews/borer-treetops-white-pearls" title="Divide And Conquer" target="_blank">Divide And Conquer</a></p>-->
-                            </div>
-                            <div class="col-6">
-                                <h3>Loud Silence</h3>
-                                <p>"Loud Silence is primarily driven by complex layers of synths carrying bright melodies. Perhaps a bit reminiscent of MGMT, the overall energy on this album is a well-blended mix of upbeat and laid-back. There’s a spacey, dreamy feel through many of the tracks, creating a cohesive listening experience across its length."
-                                    <br>
-                                    <a href="https://thearkofmusic.com/borer-treetops-loud-silence/" title="The Ark of Music" target="_blank">The Ark of Music</a></p>
-<!--                                <p>"The mellow sound that flows throughout the album is fantastic and incredibly reminiscent of the new wave movement of the 80s, as well as psychedelic rock from the 60s"-->
-<!--                                    <br>-->
-<!--                                    <a href="https://musicinsiderglobal.com/2021/03/borer-treetops-release-new-album-loud-silence/" title="Music Insider" target="_blank">Music Insider</a></p>-->
-<!--                                <p>"The melodies were quite memorable and there’s a nice mix of introspective lyrics and hopeful sentiment. This was a solid release and I think fans of bands like Tame Impala, Ariel Pink and other like minded bands might enjoy"-->
-<!--                                    <br> Final rating: 3.7 out of 5 <br>-->
-<!--                                    <a href="https://www.divideandconquermusic.com/indie-music-album-reviews/borer-treetops-loud-silence" title="Divide And Conquer" target="_blank">Divide And Conquer</a></p>-->
-                            </div>
-                        </div>
-                        <br>
-                        <hr>
-                        <br>
-                        <h6>Follow us on social media to get the latest news.</h6>
-                        <p>
-                            <a href="https://www.facebook.com/borertreetops" title="Borer Treetops - Facebook" target="_blank">
-                                <i class="fa fa-facebook"></i>
-                            </a>
-                            &nbsp;&nbsp;
-                            <a href="https://www.instagram.com/borertreetops" title="Borer Treetops - Instagram" target="_blank">
-                                <i class="fa fa-instagram"></i>
-                            </a>
-                            &nbsp;&nbsp;
-                            <a href="https://www.youtube.com/@borertreetops" title="Borer Treetops - Youtube" target="_blank">
-                                <i class="fa fa-youtube"></i>
-                            </a>
-                            &nbsp;&nbsp;
-                            <a href="https://open.spotify.com/artist/5rXOzZ2sm1q8OQ6jm9vENi" title="Borer Treetops - Spotify" target="_blank">
-                                <i class="fa fa-spotify"></i>
-                            </a>
-                            &nbsp;&nbsp;
-                            <a href="https://soundcloud.com/borertreetops" title="Borer Treetops - Soundcloud" target="_blank">
-                                <i class="fa fa-soundcloud"></i>
-                            </a>
-                            &nbsp;&nbsp;
-                            <a href="https://borertreetops.bandcamp.com" title="Borer Treetops - Bandcamp" target="_blank">
-                                <i class="fa fa-bandcamp"></i>
-                            </a>
-                            &nbsp;&nbsp;
-                            <a href="https://music.apple.com/gb/artist/borer-treetops/1549176507" title="Borer Treetops - Apple Music" target="_blank">
-                                <i class="fa fa-apple"></i>
-                            </a>
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <!-- ##### Reviews Area End ##### -->
-
+          </div>
         </div>
-    </section>
-    <!-- ##### News Area End ##### -->
+      </div>
+    </div>
+  </footer>
+  <!-- End Footer -->
 
-    <!-- ##### Contact Area Start ##### -->
-    <section id="contact" class="contact-area section-padding-100 bg-img bg-overlay bg-fixed has-bg-img" style="background-image: url(img/bg-img/fern_bg.jpg);">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <div class="section-heading white wow fadeInUp" data-wow-delay="100ms">
-                        <h2>Get In Touch</h2>
-                    </div>
-                </div>
-            </div>
+  <!-- Javascript files-->
+  <script src="js/jquery.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/jquery-3.0.0.min.js"></script>
+  <script src="js/plugin.js"></script>
 
-            <div class="row">
-                <div class="col-12">
-                    <!-- Contact Form Area -->
-                    <div class="contact-form-area">
-                        <form action="https://formspree.io/f/xnqoggpn" method="POST">
-                            <div class="row">
-                                <div class="col-md-6 col-lg-4">
-                                    <div class="form-group wow fadeInUp" data-wow-delay="100ms">
-                                        <input type="text" class="form-control" id="name" placeholder="Name">
-                                    </div>
-                                </div>
-                                <div class="col-md-6 col-lg-4">
-                                    <div class="form-group wow fadeInUp" data-wow-delay="200ms">
-                                        <input type="email" class="form-control" id="email" placeholder="E-mail">
-                                    </div>
-                                </div>
-                                <div class="col-lg-4">
-                                    <div class="form-group wow fadeInUp" data-wow-delay="300ms">
-                                        <input type="text" class="form-control" id="subject" placeholder="Subject">
-                                    </div>
-                                </div>
-                                <div class="col-12">
-                                    <div class="form-group wow fadeInUp" data-wow-delay="400ms">
-                                        <textarea name="message" class="form-control" id="message" cols="30" rows="10" placeholder="Message"></textarea>
-                                    </div>
-                                </div>
-                                <div class="col-12 text-center wow fadeInUp" data-wow-delay="500ms">
-                                    <button class="btn oneMusic-btn mt-30" type="submit">Send <i class="fa fa-angle-double-right"></i></button>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- ##### Contact Area End ##### -->
+  <!-- Sidebar -->
+  <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+  <script src="js/custom.js"></script>
+  <script src="https:cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
 
-    <!-- ##### Footer Area Start ##### -->
-    <footer class="footer-area">
-        <div class="container">
-            <div class="row d-flex flex-wrap align-items-center">
-                <div class="col-12 col-md-6">
-                    <a href="index.html"><img src="img/core-img/logo2_simple_white_small.png" alt="Borer Treetops"></a>
-                    <p class="copywrite-text"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                    </p>
-                </div>
-
-                <div class="col-12 col-md-6">
-                    <div class="footer-nav">
-                        <ul>
-                            <li><a href="index.html">Home</a></li>
-                            <li><a href="#about">About</a></li>
-                            <li><a href="#news">News</a></li>
-                            <li><a href="#reviews">Reviews</a></li>
-                            <li><a href="#contact">Contact</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
-    <!-- ##### Footer Area End ##### -->
-
-    <!-- ##### All Javascript Script ##### -->
-    <!-- jQuery-2.2.4 js -->
-    <script src="js/jquery/jquery-2.2.4.min.js"></script>
-    <!-- Popper js -->
-    <script src="js/bootstrap/popper.min.js"></script>
-    <!-- Bootstrap js -->
-    <script src="js/bootstrap/bootstrap.min.js"></script>
-    <!-- All Plugins js -->
-    <script src="js/plugins/plugins.js"></script>
-    <!-- Active js -->
-    <script src="js/active.js"></script>
 </body>
-
 </html>

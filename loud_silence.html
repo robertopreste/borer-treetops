@@ -2,14 +2,24 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="description" content="">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
-  <!-- Title -->
-  <title>Borer Treetops - Loud Silence</title>
+  <!-- Basic -->
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <!-- Mobile Metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+
+  <!-- Site Metas -->
+  <title>Loud Silence</title>
+  <meta name="description" content="Borer Treetops is a psychedelic rock/dream pop project from Cambridge, UK.">
+  <meta property="og:title" content="Borer Treetops">
+  <meta property="og:type" content="website">
+  <meta property="og:description" content="Borer Treetops is a psychedelic-rock/dream pop project from Cambridge, UK.">
+  <meta property="og:url" content="https://borertreetops.com">
+  <meta property="og:site_name" content="Borer Treetops">
+  <meta property="og:image" content="https://borertreetops/img/logo_square_min.png">
 
   <!-- Favicon -->
   <link rel="icon" href="img/favicons/favicon.ico">
@@ -20,23 +30,31 @@
   <meta name="msapplication-TileColor" content="#da532c">
   <meta name="theme-color" content="#000000">
 
-  <!-- Stylesheet -->
-  <link rel="stylesheet" href="style.css">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
 
-  <meta name="description" content="Borer Treetops is an electro-dream pop project from Cambridge, UK.">
-  <meta property="og:title" content="Borer Treetops">
-  <meta property="og:type" content="website">
-  <meta property="og:description" content="Borer Treetops is an electro-dream pop project from Cambridge, UK.">
-  <meta property="og:url" content="https://borertreetops.com">
-  <meta property="og:site_name" content="Borer Treetops">
-  <meta property="og:image" content="https://borertreetops/img/core-img/logo_square_min.png">
+  <!-- Style CSS -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Responsive-->
+  <link rel="stylesheet" href="css/responsive.css">
+
+  <!-- Scrollbar Custom CSS -->
+  <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
+
+  <!-- Tweaks for older IEs-->
+  <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
+  <!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
 
   <script type="application/ld+json">
     {
       "@context": "http://schema.org",
       "@type": "WebSite",
       "name": "Borer Treetops",
-      "description": "Borer Treetops is an electro-dream pop project from Cambridge, UK.",
+      "description": "Borer Treetops is a psychedelic rock/dream pop project from Cambridge, UK.",
       "url": "https://borertreetops.com",
       "image": "https://borertreetops.com/img/core-img/logo_square_min.png"
     }
@@ -45,134 +63,171 @@
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-D6KGM31WBT"></script>
   <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
 
-      gtag('config', 'G-D6KGM31WBT');
-    </script>
+    gtag('config', 'G-D6KGM31WBT');
+  </script>
 
 </head>
 
-<body>
-<!-- Preloader -->
-<div class="preloader d-flex align-items-center justify-content-center">
-  <div class="lds-ellipsis">
-    <div></div>
-    <div></div>
-    <div></div>
-    <div></div>
+<!-- Body -->
+<body class="main-layout ">
+  <!-- Loader  -->
+  <div class="loader_bg">
+    <div class="loader"><img src="img/loading.gif" alt="#" /></div>
+  </div>
+  <!-- End Loader -->
+
+  <!-- Header -->
+  <header>
+    <!-- Header Inner -->
+
+      <div class="header">
+        <div class="container">
+          <div class="row">
+            <div class="col-xl-2 col-lg-2 col-md-2 col-sm-3 col logo_section">
+              <div class="full">
+                <div class="center-desk">
+                  <div class="logo">
+                    <a href="index.html"><img src="img/logo_simple_black.png" alt="Borer Treetops" /></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Navigation -->
+            <div class="col-xl-10 col-lg-10 col-md-10 col-sm-9">
+              <div class="menu-area">
+                <div class="limit-box">
+                  <nav class="main-menu ">
+                    <ul class="menu-area-main">
+                      <li> <a href="index.html">Home </a> </li>
+<!--                      <li> <a href="#about">About </a> </li>-->
+<!--                      <li> <a href="#reviews">Reviews </a> </li>-->
+<!--                      <li> <a href="#releases">Releases </a> </li>-->
+<!--                      <li> <a href="#contact">Contact </a> </li>-->
+                      <li>  </li>
+                    </ul>
+                  </nav>
+                </div>
+              </div>
+            </div>
+            <!-- End Navigation -->
+
+         </div>
+       </div>
+     </div>
+     <!-- End Header Inner -->
+
+</header>
+<!-- End Header -->
+
+<!-- Album  -->
+<div id="album" class="about">
+  <div class="container">
+    <br><br>
+    <div class="row display_boxflex">
+      <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+        <div class="about-box">
+          <h3>Loud Silence</h3>
+          <hr>
+          <br>
+          <a href="https://open.spotify.com/album/7FwlwjJbF9t4g6ZiE23oVD" target="_blank">&nbsp; Listen on Spotify &nbsp; <i class="fa fa-spotify"></i> </a><br><br>
+          <a href="https://music.apple.com/album/loud-silence/1555817700" target="_blank">&nbsp; Listen on Apple Music &nbsp; <i class="fa fa-apple"></i> </a><br><br>
+          <a href="https://youtube.com/playlist?list=OLAK5uy_ldhtzzI20s8-ZHi0WPHK83R7s-Vdk_hJk" target="_blank">&nbsp; Listen on YouTube &nbsp; <i class="fa fa-youtube"></i> </a><br><br>
+          <a href="https://borertreetops.bandcamp.com/album/loud-silence" target="_blank">&nbsp; Listen on Bandcamp &nbsp; <i class="fa fa-bandcamp"></i> </a><br><br>
+          <a href="https://soundcloud.com/borertreetops/sets/loud-silence" target="_blank">&nbsp; Listen on Soundcloud &nbsp; <i class="fa fa-soundcloud"></i> </a>
+        </div>
+      </div>
+      <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+        <div class="about-box">
+          <figure><img src="img/releases/cover_loud_silence_1800.png" alt="Loud Silence" /></figure>
+        </div>
+      </div>
+    </div>
+
   </div>
 </div>
+<!-- End Album -->
 
-<!-- ##### Header Area Start ##### -->
-<header class="header-area">
-  <!-- Navbar Area -->
-  <div class="oneMusic-main-menu">
-    <div class="classy-nav-container breakpoint-off">
-      <div class="container">
-        <!-- Menu -->
-        <nav class="classy-navbar justify-content-between" id="oneMusicNav">
+<!-- Footer -->
+<footer>
+  <div id="contact" class="footer ">
+    <div class="container">
+      <div class="row">
 
-          <!-- Nav brand -->
-          <a href="index.html" class="nav-brand"><img src="img/core-img/logo2_simple_white.png" alt="Borer Treetops"></a>
+        <div class="col-md-12 border_top">&nbsp;</div>
 
-          <!-- Navbar Toggler -->
-          <div class="classy-navbar-toggler">
-            <span class="navbarToggler"><span></span><span></span><span></span></span>
-          </div>
+        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 ">
+          <div class="row">
+            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 ">
+              <div class="address">
+                <ul class="loca">
+                  <li>
+                    <a href="mailto:borertreetops@gmail.com"><i class="fa fa-envelope"></i> &nbsp; borertreetops@gmail.com</a>
+                  </li>
+                </ul>
 
-          <!-- Menu -->
-          <div class="classy-menu">
+                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 ">
+                  <ul class="social_link">
+                    <li><a href="https://www.facebook.com/borertreetops" title="Borer Treetops - Facebook" target="_blank">
+                      <i class="fa fa-facebook" aria-hidden="true"></i>
+                    </a></li>
 
-            <!-- Close Button -->
-            <div class="classycloseIcon">
-              <div class="cross-wrap"><span class="top"></span><span class="bottom"></span></div>
+                    <li><a href="https://www.instagram.com/borertreetops" title="Borer Treetops - Instagram" target="_blank">
+                      <i class="fa fa-twitter" aria-hidden="true"></i>
+                    </a></li>
+
+                    <li><a href="https://www.youtube.com/@borertreetops" title="Borer Treetops - YouTube" target="_blank">
+                      <i class="fa fa-youtube" aria-hidden="true"></i>
+                    </a></li>
+
+                    <li><a href="https://open.spotify.com/artist/5rXOzZ2sm1q8OQ6jm9vENi" title="Borer Treetops - Spotify" target="_blank">
+                      <i class="fa fa-instagram" aria-hidden="true"></i>
+                    </a></li>
+
+                    <li><a href="https://soundcloud.com/borertreetops" title="Borer Treetops - Soundcloud" target="_blank">
+                      <i class="fa fa-soundcloud" aria-hidden="true"></i>
+                    </a></li>
+
+                    <li><a href="https://borertreetops.bandcamp.com" title="Borer Treetops - Bandcamp" target="_blank">
+                      <i class="fa fa-bandcamp" aria-hidden="true"></i>
+                    </a></li>
+
+                    <li><a href="https://music.apple.com/gb/artist/borer-treetops/1549176507" title="Borer Treetops - Apple Music" target="_blank">
+                      <i class="fa fa-apple" aria-hidden="true"></i>
+                    </a></li>
+                  </ul>
+                </div>
+              </div>
             </div>
+          </div>
 
-            <!-- Nav Start -->
-            <div class="classynav">
-              <ul>
-                <li><a href="index.html">Home</a></li>
-              </ul>
+          <div class="container">
+            <div class="copyright">
+              <p>Copyright 2024 All Right Reserved By <a href="https://html.design/">Free html Templates</a></p>
             </div>
-            <!-- Nav End -->
-
           </div>
-        </nav>
-      </div>
-    </div>
-  </div>
-</header>
-<!-- ##### Header Area End ##### -->
-
-<!-- ##### About Area Start ##### -->
-<section id="about" class="featured-artist-area section-padding-100 bg-img bg-overlay bg-fixed" style="background-image: url(img/core-img/treetops_studio.jpg);">
-  <div class="container">
-    <div class="row mt-100">
-      <div class="col-12">
-        <div class="section-heading center white">
-          <h1>Borer Treetops - Loud Silence</h1>
-        </div>
-      </div>
-    </div>
-    <div class="row mt-50 mb-100">
-      <div class="col-12 col-md-5 col-lg-4">
-        <div class="featured-artist-thumb">
-          <img src="img/releases/cover_loud_silence_1800.png" alt="Borer Treetops - Loud Silence">
-        </div>
-      </div>
-      <div class="col-12 col-md-7 col-lg-8">
-        <div class="featured-artist-content">
-          <div class="text-center">
-            <a data-animation="fadeInUp" data-delay="500ms" style="width: 60%" href="https://open.spotify.com/album/7FwlwjJbF9t4g6ZiE23oVD" target="_blank" class="btn oneMusic-btn mt-15">Listen on Spotify <i class="fa fa-spotify"></i></a><br>
-            <a data-animation="fadeInUp" data-delay="500ms" style="width: 60%" href="https://music.apple.com/it/album/loud-silence/1555817700" target="_blank" class="btn oneMusic-btn mt-15">Listen on Apple Music <i class="fa fa-apple"></i></a><br>
-            <a data-animation="fadeInUp" data-delay="500ms" style="width: 60%" href="https://youtube.com/playlist?list=OLAK5uy_ldhtzzI20s8-ZHi0WPHK83R7s-Vdk_hJk" target="_blank" class="btn oneMusic-btn mt-15">Listen on YouTube <i class="fa fa-youtube"></i></a><br>
-            <a data-animation="fadeInUp" data-delay="500ms" style="width: 60%" href="https://borertreetops.bandcamp.com/album/loud-silence" target="_blank" class="btn oneMusic-btn mt-15">Listen on Bandcamp <i class="fa fa-bandcamp"></i></a><br>
-            <a data-animation="fadeInUp" data-delay="500ms" style="width: 60%" href="https://soundcloud.com/borertreetops/sets/loud-silence" target="_blank" class="btn oneMusic-btn mt-15">Listen on SoundCloud <i class="fa fa-soundcloud"></i></a><br>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- ##### About Area End ##### -->
-
-<!-- ##### Footer Area Start ##### -->
-<footer class="footer-area">
-  <div class="container">
-    <div class="row d-flex flex-wrap align-items-center">
-      <div class="col-12 col-md-6">
-        <a href="index.html"><img src="img/core-img/logo2_simple_white_small.png" alt="Borer Treetops"></a>
-        <p class="copywrite-text"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-          Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-          <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-        </p>
-      </div>
-
-      <div class="col-12 col-md-6">
-        <div class="footer-nav">
-          <ul>
-            <li><a href="index.html">Home</a></li>
-          </ul>
         </div>
       </div>
     </div>
   </div>
 </footer>
-<!-- ##### Footer Area End ##### -->
+<!-- End Footer -->
 
-<!-- ##### All Javascript Script ##### -->
-<!-- jQuery-2.2.4 js -->
-<script src="js/jquery/jquery-2.2.4.min.js"></script>
-<!-- Popper js -->
-<script src="js/bootstrap/popper.min.js"></script>
-<!-- Bootstrap js -->
-<script src="js/bootstrap/bootstrap.min.js"></script>
-<!-- All Plugins js -->
-<script src="js/plugins/plugins.js"></script>
-<!-- Active js -->
-<script src="js/active.js"></script>
+<!-- Javascript files-->
+<script src="js/jquery.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/jquery-3.0.0.min.js"></script>
+<script src="js/plugin.js"></script>
+
+<!-- Sidebar -->
+<script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+<script src="js/custom.js"></script>
+<script src="https:cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
+
 </body>
-
 </html>
